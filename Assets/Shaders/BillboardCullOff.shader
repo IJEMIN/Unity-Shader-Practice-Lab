@@ -1,4 +1,5 @@
-﻿Shader "Custom/BillboardCullOff" {
+﻿
+Shader "I_Jemin/BillboardCullOff" {
 	Properties {
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
 	}
