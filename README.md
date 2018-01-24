@@ -7,3 +7,5 @@ Just my shader practice lab
 - Half Lambert
 - Rim Light
 - Toon Ramp by Diffuse Wrapping
+- Standard Metallic
+- Standard Specular
