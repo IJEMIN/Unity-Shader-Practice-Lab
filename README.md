@@ -1,5 +1,8 @@
-# Unity-Shader-Codes
-Just my shader practice lab
+# Unity-Shader-Practice Lab
+
+![front img](/front.png)
+
+Just my shader practicing lab
 
 ## Contain Shaders
 - (Manual) Lambert
@@ -9,3 +12,6 @@ Just my shader practice lab
 - Toon Ramp by Diffuse Wrapping
 - Standard Metallic
 - Standard Specular
+- Basic Refelection
+- Burnout Dissolve
+- Cloaking
