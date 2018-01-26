@@ -41,6 +41,8 @@
 			// get burn opacity percentage
 			float opacity = tex2D(_NoiseMap,IN.uv_NoiseMap).r;
 
+			_Cutout = pow(_Cutout,2);
+
 			if(opacity < _Cutout * 1.2)
 			{
 				o.Emission = _BurnColor;

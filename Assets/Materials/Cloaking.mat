@@ -35,9 +35,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _DeformIntense: 1.45
+    - _DeformIntense: 0.98
     - _Intensity: 0
-    - _Opacity: 0.042
-    - _RimPow: 2.6
+    - _Opacity: 0.152
+    - _RimPow: 1.5
     m_Colors:
-    - _RimColor: {r: 0, g: 0.17241406, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 0.33468562, b: 0.88235295, a: 1}
