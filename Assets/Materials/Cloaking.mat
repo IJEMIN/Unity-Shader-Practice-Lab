@@ -37,7 +37,7 @@ Material:
     m_Floats:
     - _DeformIntense: 0.98
     - _Intensity: 0
-    - _Opacity: 0.152
-    - _RimPow: 1.5
+    - _Opacity: 0.308
+    - _RimPow: 1.7
     m_Colors:
     - _RimColor: {r: 0, g: 0.33468562, b: 0.88235295, a: 1}

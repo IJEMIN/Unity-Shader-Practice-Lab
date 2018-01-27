@@ -10,7 +10,7 @@
 
 	}
 	SubShader {
-		Tags { "Queue" = "Transparent" "RenderType" = "Transparent"}
+		Tags { "Queue" = "Transparent" "RenderType" = "Opaque"}
 		zwrite off
 
 		GrabPass {}
@@ -74,5 +74,5 @@
 
 		ENDCG
 	}
-	FallBack "Regacy Shaders/Transparent/Vertexlit"
+	FallBack "Diffuse"
 }
