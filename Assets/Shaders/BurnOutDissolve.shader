@@ -3,8 +3,7 @@
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
 		_NormalMap("Normal Map",2D) = "black" {}
 		_NoiseMap("Noise Map",2D) = "black" {}
-		_Cutout("Burn out Percentage",Range(0,1)) = 0.2
-		_Cutoff("Cut off for alphaTest",Float) = 0.5
+		_Cutout("Cutout",Range(0,1)) = 0.2
 		[HDR]_BurnColor("Burn edge Color",Color) = (1,0,0,1)
 	
 	}
@@ -18,7 +17,7 @@
 		
 		CGPROGRAM
 		// Physically based Standard lighting model, and enable shadows on all light types
-		#pragma surface surf Standard alphatest:_Cutoff
+		#pragma surface surf Standard
 
 		sampler2D _MainTex;
 		sampler2D _NormalMap;
@@ -61,6 +60,7 @@
 			{
 				o.Alpha = c.a;
 			}			
+			clip(o.Alpha -_Cutout);
 		}
 		ENDCG
 	}
