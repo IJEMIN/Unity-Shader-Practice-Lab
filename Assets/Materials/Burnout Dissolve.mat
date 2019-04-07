@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Burnout Dissolve
   m_Shader: {fileID: 4800000, guid: bf4a1b16e5cd7438c810a7d1fc329aba, type: 3}
   m_ShaderKeywords: 
@@ -31,6 +32,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutout: 0.273
+    - _BurnPercentage: 0.849
+    - _Cutoff: 0.15
+    - _Cutout: 0.295
+    - _Cutting: 0.291
     m_Colors:
     - _BurnColor: {r: 3.1807938, g: 0.8142315, b: 0.11694087, a: 1}
