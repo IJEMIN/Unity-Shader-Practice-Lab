@@ -34,7 +34,7 @@ Material:
     m_Floats:
     - _BurnPercentage: 0.849
     - _Cutoff: 0.15
-    - _Cutout: 0.295
+    - _Cutout: 0.164
     - _Cutting: 0.291
     m_Colors:
     - _BurnColor: {r: 3.1807938, g: 0.8142315, b: 0.11694087, a: 1}

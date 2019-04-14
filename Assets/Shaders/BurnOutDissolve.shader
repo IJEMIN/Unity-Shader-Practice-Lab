@@ -12,7 +12,7 @@
 		
 			"RenderType" = "TransparentCutout" }
 
-		Cull back
+		Cull Back
 
 		
 		CGPROGRAM
